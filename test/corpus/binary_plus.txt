@@ -1,0 +1,21 @@
+================================================================================
+binary_plus
+================================================================================
+10 + 5 + true
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (binary_expression
+      (expression
+        (binary_expression
+          (expression
+            (primary_expression
+              (number_literal)))
+          (expression
+            (primary_expression
+              (number_literal)))))
+      (expression
+        (primary_expression
+          (true))))))

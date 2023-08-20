@@ -1,0 +1,27 @@
+================================================================================
+member_call
+================================================================================
+foo.startswith(1, 2, 3)
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (call_expression
+        (expression
+          (primary_expression
+            (member_expression
+              (primary_expression
+                (identifier))
+              (identifier))))
+        (arguments
+          (expression
+            (primary_expression
+              (number_literal)))
+          (expression
+            (primary_expression
+              (number_literal)))
+          (expression
+            (primary_expression
+              (number_literal))))))))

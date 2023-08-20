@@ -1,0 +1,28 @@
+================================================================================
+incomplete func call
+================================================================================
+type(10, 10, bar.buzz
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (call_expression
+        (expression
+          (primary_expression
+            (identifier)))
+        (arguments
+          (expression
+            (primary_expression
+              (number_literal)))
+          (expression
+            (primary_expression
+              (number_literal)))
+          (expression
+            (primary_expression
+              (member_expression
+                (primary_expression
+                  (identifier))
+                (identifier))))
+          (MISSING "))))))

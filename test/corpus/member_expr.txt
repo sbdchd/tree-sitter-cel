@@ -1,0 +1,17 @@
+================================================================================
+member_expr
+================================================================================
+foo.bar.buzz
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (member_expression
+        (primary_expression
+          (member_expression
+            (primary_expression
+              (identifier))
+            (identifier)))
+        (identifier)))))

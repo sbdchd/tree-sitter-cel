@@ -1,0 +1,27 @@
+================================================================================
+paren expr
+================================================================================
+((10 + 5) * 10)
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (parenthesized_expression
+        (expression
+          (binary_expression
+            (expression
+              (primary_expression
+                (parenthesized_expression
+                  (expression
+                    (binary_expression
+                      (expression
+                        (primary_expression
+                          (number_literal)))
+                      (expression
+                        (primary_expression
+                          (number_literal))))))))
+            (expression
+              (primary_expression
+                (number_literal)))))))))

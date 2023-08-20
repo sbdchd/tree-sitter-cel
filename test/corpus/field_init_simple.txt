@@ -1,0 +1,18 @@
+================================================================================
+field init simple
+================================================================================
+foo{x: 1}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (message
+        (identifier)
+        (expression
+          (primary_expression
+            (identifier)))
+        (expression
+          (primary_expression
+            (number_literal)))))))

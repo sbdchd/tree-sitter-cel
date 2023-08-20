@@ -1,0 +1,22 @@
+================================================================================
+incomplete map
+================================================================================
+{x: 1, buzz: bar, 
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (map
+        (expression
+          (primary_expression
+            (identifier)))
+        (expression
+          (primary_expression
+            (number_literal)))
+        (identifier)
+        (expression
+          (primary_expression
+            (identifier)))
+        (MISSING "}")))))

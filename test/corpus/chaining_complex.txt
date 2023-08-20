@@ -1,0 +1,44 @@
+================================================================================
+chaining complex
+================================================================================
+request.context.userId in [1,2,3] && !request.context.isOverLimit
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (binary_expression
+      (expression
+        (binary_expression
+          (expression
+            (primary_expression
+              (member_expression
+                (primary_expression
+                  (member_expression
+                    (primary_expression
+                      (identifier))
+                    (identifier)))
+                (identifier))))
+          (expression
+            (primary_expression
+              (list
+                (expression
+                  (primary_expression
+                    (number_literal)))
+                (expression
+                  (primary_expression
+                    (number_literal)))
+                (expression
+                  (primary_expression
+                    (number_literal))))))))
+      (expression
+        (unary_expression
+          (expression
+            (primary_expression
+              (member_expression
+                (primary_expression
+                  (member_expression
+                    (primary_expression
+                      (identifier))
+                    (identifier)))
+                (identifier)))))))))

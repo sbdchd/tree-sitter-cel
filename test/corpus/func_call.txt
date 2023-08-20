@@ -1,0 +1,24 @@
+================================================================================
+func_call
+================================================================================
+type(10, 10, 10)
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (call_expression
+        (expression
+          (primary_expression
+            (identifier)))
+        (arguments
+          (expression
+            (primary_expression
+              (number_literal)))
+          (expression
+            (primary_expression
+              (number_literal)))
+          (expression
+            (primary_expression
+              (number_literal))))))))

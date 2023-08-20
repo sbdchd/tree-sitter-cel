@@ -1,0 +1,19 @@
+================================================================================
+ternary
+================================================================================
+foo ? bar : null
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (ternary_expression
+      (expression
+        (primary_expression
+          (identifier)))
+      (expression
+        (primary_expression
+          (identifier)))
+      (expression
+        (primary_expression
+          (null))))))

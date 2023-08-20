@@ -1,0 +1,19 @@
+================================================================================
+member_index
+================================================================================
+bar.foo[1]
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (expression
+    (primary_expression
+      (subscript_expression
+        (primary_expression
+          (member_expression
+            (primary_expression
+              (identifier))
+            (identifier)))
+        (expression
+          (primary_expression
+            (number_literal)))))))
